@@ -6,7 +6,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const message = document.getElementById('message').value;
   
     // Display the collected information in an alert
-    alert(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    alert(`The email was successfully sent.`);
   
     // You can add further actions here, like sending the data to a server using AJAX or fetching an API.
   });
